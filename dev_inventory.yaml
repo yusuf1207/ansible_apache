@@ -1,0 +1,9 @@
+---
+all:
+  hosts:
+  
+  children:
+    dev:
+      hosts:
+        host1:
+          ansible_host: "10.108.0.3" 
